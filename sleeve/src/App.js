@@ -11,10 +11,26 @@ import img8 from "./assets/ArtPetitBiscuit.jpg";
 import img9 from "./assets/ThemeIcon@3x.png";
 import img10 from "./assets/ThemeUIActive.png";
 import img11 from "./assets/ThemeUI.png";
-// import img12 from "./assets/ThemeFile.png";
 import img12 from "./assets/ThemeExport.png";
 import img13 from "./assets/midimage.png";
-
+//import img14 from './assets/wallpaper.jpg';
+import img15 from "./assets/IconArrayArtwork.png";
+import img16 from "./assets/IconArrayTrack.png";
+import img17 from "./assets/icon2.png";
+import img18 from "./assets/icon3.png";
+import img19 from "./assets/ArtWork1.jpg";
+import img20 from "./assets/ArtWork2.jpg";
+import img21 from "./assets/ArtWork3.jpg";
+// import img22 from "./assets/Typography1.jpg";
+// import img23 from "./assets/Typography2.jpg";
+import img24 from "./assets/wallpaper.jpg";
+import img25 from "./assets/topo1.png";
+import img26 from "./assets/topo2.png";
+import img27 from "./assets/inter1.png";
+import img28 from "./assets/inter2.png";
+import img29 from "./assets/Settings1.jpg";
+import img30 from "./assets/Settings2.jpg";
+import img31 from "./assets/Settings3.jpg";
 const App = () => {
   return (
     <div className="App">
@@ -88,7 +104,6 @@ const App = () => {
           </div>
         </center>
       </div>
-
       <div className="poster">
         <div className="post">
           <div className="div1">
@@ -214,6 +229,122 @@ const App = () => {
             <img src={img13} alt="" />
           </center>
         </div>
+      </div>
+      {/*scrollsection */}
+      <section className="scroll-section">
+        <div className="scroll-content">
+          <div className="art-div">
+            <div className="art-content">
+              <img className="art-img" src={img15} alt="" />
+              <h3
+                className="scroll-content-heading"
+                style={{ marginBottom: "6rem" }}
+              >
+                Artwork
+              </h3>
+              <p className="scroll-content-para">
+                Scale artwork all the way up or all the way down. Round the
+                corners or leave them square.
+              </p>
+              <p className="scroll-content-para">
+                Choose shadow and lighting effects to bring your album artwork
+                to life.
+              </p>
+              <p className="scroll-content-para">Or hide it completely.</p>
+            </div>
+            <div className="art-imgs">
+              <img id="artimg1" src={img19} alt="" />
+              <img id="artimg2" src={img20} alt="" />
+              <img id="artimg3" src={img21} alt="" />
+            </div>
+          </div>
+          <div className="typo-div">
+            <div className="typo-content">
+              <img className="typo-img" src={img16} alt="" />
+              <h3
+                className="scroll-content-heading"
+                style={{ marginBottom: "6rem" }}
+              >
+                Typography
+              </h3>
+              <p className="scroll-content-para">
+                Pick the track info you want to display, and then exactly how to
+                display it.
+              </p>
+              <p className="scroll-content-para">
+                Choose the fonts, weights, sizes, and transparency to use for
+                each line, along with customizing color and shadow.
+              </p>
+            </div>
+            <div className="typo-imgs">
+              <img id="typoimg1" src={img25} alt="" />
+              <img id="typoimg2" src={img26} alt="" />
+            </div>
+          </div>
+          <div className="inter-div">
+            <div className="interface-content">
+              <div id="interface-overlap">
+                <img src={img18} alt="" />
+              </div>
+              <h3
+                className="scroll-content-heading"
+                style={{ marginBottom: "6rem" }}
+              >
+                Interface
+              </h3>
+              <p className="scroll-content-para">
+                Customize the layout, alignment and position to fit your setup.
+              </p>
+              <p className="scroll-content-para">
+                Show and hide playback controls. Add a backdrop layer and
+                customize it.
+              </p>
+            </div>
+            <div className="inter-imgs">
+              <img id="interimg1" src={img27} alt="" />
+              <img id="interimg2" src={img28} alt="" />
+            </div>
+          </div>
+          <div className="settings-div">
+            <div className="settings-content">
+              <div id="interface-overlap">
+                <img src={img17} alt="" />
+              </div>
+              <h3
+                className="scroll-content-heading"
+                style={{ marginBottom: "6rem" }}
+              >
+                Settings
+              </h3>
+              <p className="scroll-content-para">
+                Decide if Sleeve stays out of the way, behind windows, or in
+                front of them — or only when you need to see it.
+              </p>
+              <p className="scroll-content-para">
+                Show it in the Dock, choose from custom icons, or keep it on the
+                Desktop only.
+              </p>
+              <p className="scroll-content-para">
+                Set your custom keyboard shortcuts and integrate with the apps
+                you use.
+              </p>
+            </div>
+            <div className="settings-imgs">
+              <img id="settingsimg1" src={img29} alt="" />
+              <img id="settingsimg2" src={img30} alt="" />
+              <img id="settingsimg3" src={img31} alt="" />
+            </div>
+          </div>
+        </div>
+        <div id="scroll-sectionBox"></div>
+      </section>
+      <div>
+        <center>
+          <p style={{ marginTop: "15rem", color:"red",fontWeight:"500" }}>INTERGRATIONS</p>
+          <h1 id="h111" style={{ marginTop: "1rem" }}>
+            Like, Scrollable
+          </h1>
+        </center>
       </div>
     </div>
   );
